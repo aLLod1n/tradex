@@ -1,0 +1,27 @@
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  @media only screen and (max-height: 767px) {
+    // margin: 200px 0;
+  }
+  
+  .icon{
+    width: 75px;
+    height: 75px;
+    color: darken($success, 20%);
+  }
+  .card-body{
+    padding: 40px 25px;
+    text-align: center;
+  }
+  .card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  p{
+    color: $gray;
+    margin-bottom: 30px;
+  }
+}

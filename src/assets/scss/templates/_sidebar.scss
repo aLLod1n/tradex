@@ -1,0 +1,26 @@
+.sidebar {
+  background: darken($primary, 10%);
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 75px;
+  top: 0;
+}
+.menu {
+  margin-top: 100px;
+  ul {
+    li {
+      text-align: center;
+      a {
+        display: inline-block;
+        &:hover,
+        &:focus,
+        &.active {
+          background: darken($primary, 5%);
+          color: $white;
+        }
+
+      }
+    }
+  }
+}

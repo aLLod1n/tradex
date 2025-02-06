@@ -1,0 +1,50 @@
+// Promo
+.promo {
+    .promo-content-img {
+      background: lighten($primary, 45%);
+      height: 150px;
+      width: 150px;
+      border-radius: 15px;
+
+      img {
+        max-width: 70px;
+      }
+    }
+}
+
+// portfolio
+.portfolio {
+  .port-icon {
+    height: 100%;
+    width: 100%;
+    min-height: 65px;
+    max-width: 65px;
+  }
+ 
+}
+
+// Trade app
+.trade-app {
+  .card {
+    &:hover {
+      box-shadow: 0 24px 64px rgba(22, 28, 45, 0.03);
+    }
+
+    .card-footer {
+      a {
+        &:hover i {
+          transform: translateX(5px);
+        }
+      }
+    }
+  }
+}
+
+// Get in touch
+.get-touch {
+  .card {
+    &:hover {
+      box-shadow: 0 24px 64px rgba(22, 28, 45, 0.03);
+    }
+  }
+}

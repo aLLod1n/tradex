@@ -1,0 +1,74 @@
+// Intro
+.intro2 {
+  background: url("./../images/background/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: 0;
+ 
+  &:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: $primary;
+    opacity: 0.15;
+  }
+}
+
+// Exchange Form
+.exchange-form {
+  top: -100px;
+  margin-bottom: -100px;
+  @include media-breakpoint-down(md){
+    top: 70px;
+    margin-bottom: 0;
+    padding-bottom: 70px;
+  }
+}
+
+// New Product
+.new-product{
+  .card {
+    &:hover{
+      box-shadow: 0 24px 64px rgba(22, 28, 45, 0.03);
+    }
+    img {
+      height: 100px;
+    }
+  }
+}
+
+// trust
+.trust {
+  .card {
+    border-top: 5px solid $success !important;
+    &:hover{
+      box-shadow: 0 24px 64px rgba(22, 28, 45, 0.03);
+    }
+  }
+}
+
+@include media-breakpoint-down(lg){
+
+  #sparkLink{
+  width: 100% !important;
+  }
+
+
+  table thead{
+  display: none;
+  }
+
+}
+
+
+
+
+
+
+

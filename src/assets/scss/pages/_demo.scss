@@ -1,0 +1,30 @@
+.demo-list{
+  margin-bottom: 60px;
+  &-img{
+    img {
+      background: #eef2fe;
+      padding: 16px;
+    }
+  }
+  &-title a{
+    font-weight: 600;
+    font-size: 18px;
+    color: $dark-400;
+    &:hover{
+      color: $primary;
+    }
+  }
+}
+
+// DARK
+.dark{
+  &.demo{
+    background-color: $theme-dark;
+    .demo-list-img img {
+      background: rgba($black, 0.15);
+    }
+    h1,h2, h3, h4, h5, h6, p, a {
+      color: $white;
+    }
+  }
+}

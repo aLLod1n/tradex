@@ -1,0 +1,15 @@
+.help-category {
+  .sub-cat {
+    background: lighten($primary, 45%);
+  }
+}
+.troubleshooting {
+  ul li a{
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: $primary;
+    }
+  }
+}

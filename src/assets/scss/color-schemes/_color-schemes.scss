@@ -1,0 +1,405 @@
+.dark {
+  background: $theme-dark;
+
+  // text color
+  i,
+  .text-success,
+  .text-primary,
+  .text-hover-primary:hover,
+  .nav-link.active,
+  .blog .card .card-footer a:hover,
+  .contact-form  ul li:hover,
+  .contact-form ul a:hover,
+  .page-title p,
+  .settings-sidebar li a.active span,
+  .breadcrumb-item a.active,
+  .card-title:hover,
+  .troubleshooting ul li a:hover,
+  .check-list li:after{
+    color: $success !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .navigation .navbar-nav .nav-item .nav-link:hover,
+  label, .input-group-form span,
+  .file-upload-wrapper:after,
+  .navbar-nav .nav-item .nav-link.active,
+  .widget .media a,
+  .blog-sidebar a:hover,
+  .right-content .duration-option a,
+  .navigation .navbar-nav  .dropdown-item,
+  .content .block h3,
+  .content .block p,
+  .breadcrumb-item a,
+  .accordion .card .card-title::after,
+  .bullet-list li{
+    color: $white;
+  }
+
+  .btn i, button i, .color-switcher i,
+  .pricing  .nav-link.active i,
+  .pricing .nav .nav-item .nav-link:hover i,
+  .sidebar .menu a i,
+  .social--icons i,
+  .product-feature span i,
+  .dashboard .profile-log .thumb i,
+  .nav-tabs .nav-link.active,
+  .dropdown-menu a:hover i, 
+  .table-card table th i,
+  .authentication .icon i,
+  .add-bank-card p,
+  .btn:hover,
+  .thumb i {
+    color: $white !important;
+  }
+  p,
+  span,
+  .check-list li,
+  .blog .card .card-footer a,
+  .footer li a,
+  .copyrights .social a,
+  .troubleshooting a,
+  .list-group-item, 
+  .blog .tag-group a,
+  blockquote, .posts li,
+  .dashboard .account-money ul li.usd span,
+  .dashboard .profile-log .name,
+  .card td span, 
+  .table-card table th,
+  .right-content .balance-widget span,
+  .right-content .accordion-body,
+  .card span,
+  .navbar-nav .nav-item .nav-link,
+  .contact-form li,
+  .contact-form a,
+  .posts ul li a,
+  .blog .widget .media .meta-info a,
+  .copyrights p .copyright-links{
+    color: rgba($white, 0.65);
+  }
+  .copyrights .social a i{
+    color: rgba($white, 0.65) !important;
+  }
+  .dropdown-menu .logout i,
+  .dropdown-menu .logout:hover i{
+    color: #FF788E !important;
+  }
+  // bg color
+  .btn-primary,
+  .bg-primary,
+  .bg-success,
+  .color-switcher-trigger,
+  .social--icons a,
+  .testimonial .owl-nav .owl-prev,
+  .testimonial .owl-nav .owl-next,
+  .pricing .nav .nav-item .nav-link.active,
+  .pricing .nav .nav-item .nav-link:hover,
+  .duration-option a.active,
+  .duration-option a:hover,
+  .nav-tabs .nav-link.active,
+  .dashboard .profile-log a:hover, 
+  .dashboard-header .profile-log .dropdown-menu a:hover, 
+  .dashboard-header .profile-log .dropdown-menu a:focus,
+  .dashboard .profile-log a:focus,
+  .file-upload-wrapper:before,
+  .toggle-checkbox:checked + .toggle-switch,
+  .carousel-indicators [data-bs-target],
+  .sk-three-bounce .sk-child {
+    background-color: $success !important;
+  }
+
+  .bullet-list li::after{
+    background-color: $white;
+  }
+  .dashboard-header .profile-log .dropdown-menu .logout:hover{
+    background-color: rgba(255, 120, 142, 0.15)!important;
+  }
+  .header, 
+  .navigation .navbar-nav .dropdown-item:hover {
+    background: $theme-dark;
+    &.sticky-top {
+      box-shadow: 0px 5px 10px rgba(22, 28, 45, 0.1);
+    }
+  }
+
+  .bg-dark-2,
+  .footer, 
+  // .list-group-item,
+  .card.table-card table tr,
+  .sidebar li a:hover,
+  .sidebar li a:focus,
+  .sidebar li a.active,
+  .dashboard-header .account-money ul li.crypto,
+  .toggle-switch,
+  .demo {
+    background: rgba($black, 0.15);
+  }
+
+  .bg-dark-3,
+  .copyrights, .interested-join,
+  .input-group-prepend .input-group-text,
+  .file-upload-wrapper:after {
+    background: rgba($black, 0.5);
+  }
+
+  .navigation .navbar-nav .dropdown-menu {
+    background: rgba($black, .9);
+  }
+  .intro2 {
+    background: none;
+  }
+  .btn.btn-outline,
+  .intro2:after {
+    background-color: transparent;
+  }
+
+  // border color
+  .btn-primary,
+  .btn-outline,
+  .trust .card {
+    border-color: $success;
+  }
+  .form-control:focus,
+  .form-select:focus {
+    border: 1px solid $success !important;
+  }
+  .border-color-default,
+  .border,
+  .border-bottom,
+  .border-top,
+  .border-left,
+  .border-right,
+  .header,
+  .card-header,
+  .copyrights,
+  .blog .widget-title,
+  .blog .widget-tag .tag-group a,
+  .duration-option a,
+  .input-group-prepend .input-group-text  {
+    border-color: rgba(211, 211, 211, 0.2) !important;
+  }
+  .posts li::after{
+    border-color: rgba($white, 0.65);
+  }
+  .input-group .form-select,
+  .input-group input:first-child{
+    border-right: 1px solid rgba(211, 211, 211, 0.2);
+  }
+  .header.dashboard{
+    border-bottom: 0;
+  }
+  .apexcharts-xaxistooltip,
+  .apexcharts-yaxistooltip,
+  .apexcharts-tooltip.apexcharts-theme-light,
+  .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+    background: #31383C;
+    color: #fff;
+    border-color: rgba(211, 211, 211, 0.2)
+  }
+
+  .blog .card:hover {
+    box-shadow: 0 24px 64px rgba(22, 28, 45, 0.25);
+  }
+
+  .promo-content-img img,
+  .navbar-brand img,
+  .client-logo img,
+  .testimonial span img,
+  .footer img,
+  .authentication a img {
+    filter: brightness(0) invert(1);
+  }
+
+
+  /*========= Select =========*/
+  .select {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      background-color: $black;
+      height: 40px;
+      color: $white;
+      cursor: pointer;
+    }
+    /* Remove IE arrow */
+    select::-ms-expand {
+      display: none;
+    }
+  }
+
+  .form-select, .form-control {
+    background-color: rgba($black, 0.5);
+    color: $white;
+    border: 0;
+    &:focus{
+      color: $white;
+    }
+    @include input-placeholder{
+      color: $white;
+    }
+  }
+  .form-select option {
+      background: rgba($black, 0.9);
+  }
+}
+
+//background for header
+@each $name,
+$color in $theme_backgrounds {
+  [data-bodybg="#{$name}"] {
+    @if $name !="color_1" {
+      $body-color: $color;
+      background-color: $body-color !important;
+
+      .header {
+        background: $color;
+      }
+    }
+  }
+}
+
+
+//background for nav header
+@each $name,
+$color in $theme_primary_color {
+  [data-primary-color="#{$name}"] {
+    @if $name !="color_1" {
+
+      .btn,
+      .btn-primary,
+      .btn-success {
+        background-color: $color;
+        border-color: $color;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: darken($color, 10%);
+          border-color: darken($color, 10%);
+          box-shadow: none;
+        }
+
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled).active {
+          background-color: darken($color, 10%);
+          border-color: darken($color, 10%);
+          box-shadow: none;
+        }
+      }
+
+      .btn-outline-primary,
+      .btn-outline-success {
+        background-color: transparent;
+        color: $color;
+        border-color: $color;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: darken($color, 10%);
+          border-color: darken($color, 10%);
+          box-shadow: none;
+          color: $white;
+        }
+
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled).active {
+          background-color: darken($color, 10%);
+          border-color: darken($color, 10%);
+          box-shadow: none;
+          color: $white;
+        }
+      }
+
+
+      // Color 
+      i, 
+      .text-primary,
+      .text-success,
+      .text-hover-primary:hover,
+      .nav-link.active,
+      .blog .card .card-footer a:hover,
+      .info-list ul li:hover,
+      .contact-form  ul li:hover,
+      .contact-form ul a:hover,
+      .settings-sidebar li a.active span,
+      .breadcrumb-item a.active,
+      .card-title:hover,
+      .troubleshooting ul li a:hover,
+      .check-list li:after{
+        color: $color !important;
+      }
+
+      .btn i,
+      button i,
+      .color-switcher i,
+      .social--icons i,
+      .product-feature span i,
+      .pricing  .nav-link.active i, 
+      .pricing .nav .nav-item .nav-link:hover i,
+      .sidebar .menu a i,
+      .dropdown-menu a:hover i, 
+      .authentication .icon i,
+      .table-card table th i,
+      .thumb i {
+        color: $white !important;
+      }
+
+
+      // Background color
+      .btn-primary,
+      .bg-primary,
+      .bg-success,
+      .color-switcher-trigger,
+      .social--icons a,
+      .testimonial .owl-nav .owl-prev,
+      .testimonial .owl-nav .owl-next,
+      .pricing .nav .nav-item .nav-link.active,
+      .pricing .nav .nav-item .nav-link:hover,
+      .dropdown-menu a:hover, 
+      .dashboard-header .profile-log .dropdown-menu a:focus,
+      .duration-option a.active,
+      .duration-option a:hover,
+      .nav-tabs .nav-link.active,
+      .file-upload-wrapper:before,
+      .toggle-checkbox:checked + .toggle-switch,
+      .carousel-indicators [data-bs-target],
+      .sk-three-bounce .sk-child{
+        background-color: $color !important;
+      }
+
+
+    // Border color
+    .form-control:focus,
+    .form-select:focus {
+      border: 1px solid $color !important;
+    }
+    .border-color-success,
+    .trust .card
+    {
+      border-color: $color; 
+    }
+
+    }
+  }
+}
+
+.dark[data-font="opensans"] {
+  font-family: "Open Sans", sans-serif;
+}
+
+.dark[data-font="nunito"] {
+  font-family: "Nunito", sans-serif;
+}

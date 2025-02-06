@@ -1,0 +1,11 @@
+.nav-tabs {
+  .nav-item {
+    .nav-link {
+      background: transparent;
+      &.active {
+        background: $primary;
+        color: white;
+      }
+    }
+  }
+}

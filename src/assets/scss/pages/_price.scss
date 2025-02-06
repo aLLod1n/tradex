@@ -1,0 +1,27 @@
+.pricing{
+  ul a{
+    &:hover,&:focus,&:active,&.active{
+      color: $primary;
+    }
+  }
+    .nav {
+      .nav-item {
+        &:last-child {
+          .nav-link {
+            margin-right: 0px;
+          }
+        }
+        .nav-link {
+          background: lighten($primary, 45%);
+          color: $primary;
+          margin-right: 10px;
+          &:hover,&:focus,&:active,&.active{
+              background: $primary;
+              color: $white;
+          }
+        }
+      }
+    }
+}
+
+

@@ -1,0 +1,70 @@
+//MEDIA QUERY MANAGER
+// @include media-breakpoint-up(sm) { min-width: 576px }
+// @include media-breakpoint-up(md) { min-width: 768px }
+// @include media-breakpoint-up(lg) {min-width: 992px }
+// @include media-breakpoint-up(xl) { min-width: 1200px }
+// @include media-breakpoint-up(xxl) { min-width: 1400px }
+
+// @include media-breakpoint-down(sm) { max-width: 575.98px }
+// @include media-breakpoint-down(md) { max-width: 767.98px }
+// @include media-breakpoint-down(lg) { max-width: 991.98px }
+// @include media-breakpoint-down(xl) { max-width: 1199.98px }
+// @include media-breakpoint-down(xxl) { max-width: 1399.98px }
+
+
+//don't use it untill you need this too much
+@mixin custommq($min: null, $max: null) {
+    @if ($min !=null and $max !=null) {
+        @media only screen and (min-width: $min) and (max-width: $max) {
+            @content;
+        }
+    }
+    @if ($min==null and $max !=null) {
+        @media only screen and (max-width: $max) {
+            @content;
+        }
+    }
+    @if ($min !=null and $max==null) {
+        @media only screen and (min-width: $min) {
+            @content;
+        }
+    }
+}
+
+// /**--------- START OF TRANSITION --------*/
+@mixin transition($transition) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+  }
+  //   Example of usage
+  // .btn{
+  //   @include transition(.3s);
+  // }
+
+  // /**--------- START OF PLACEHOLDER TEXT COLOR --------*/
+@mixin  input-placeholder {
+    &.placeholder {
+      @content;
+    }
+    &:-moz-placeholder {
+      @content;
+    }
+    &::-moz-placeholder {
+      @content;
+    }
+    &:-ms-input-placeholder {
+      @content;
+    }
+    &::-webkit-input-placeholder {
+      @content;
+    }
+  }
+
+//   Example of usage
+// input{
+//     @include input-placeholder{
+//         color: #000;
+//     }
+// }

@@ -1,0 +1,52 @@
+// Typography
+$font-family-base: 'Nunito';
+$h1: 36px;
+$h2: 30px;
+$h3: 24px;
+$h4: 20px;
+$h5: 18px;
+$h6: 16px;
+
+// Color system
+$white: #fff !default;
+$gray: #869ab8;
+$light: #f8f9fa !default;
+$light-200: #F2F6FE !default;
+$black: #000 !default;
+$dark-100: #454545;
+$dark-300: #242526 !default;
+$dark-400:#161c2d !default;
+$blue: #5e72e4;
+$blue-200: #506690 !default;
+$dark-blue: #1b2a4e;
+
+$text-muted: #AEAED5;
+$primary: #1652F0 !default;
+$secondary: #673BB7 !default;
+$success: #10d876 !default;
+$info: #50E3C2 !default;
+$warning: #FE9431 !default;
+$danger: #FF788E !default;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440);
+// border-color
+$border-color: #f1f4f8;
+
+
+// theme Dark
+// =============================================================
+$theme-dark: #394247;
+//color for coller pallate
+$color_background_1: #394247;
+$color_background_2: #292D3E;
+$color_background_3: #2D2B55;
+$color_background_4: #30243D;
+$color_background_5: #193549;
+
+//color for coller pallate
+$color_primary_1: #10D078;
+$color_primary_2: #FF0096;
+$color_primary_3: #002EFF;
+$color_primary_4: #FF2F00;
+$color_primary_5: #00CCD3;
+
+
